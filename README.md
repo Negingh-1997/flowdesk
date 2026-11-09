@@ -65,3 +65,15 @@ For Netlify, use these build settings:
 - a Netlify `_headers` file is emitted into `dist/` with the same policy plus `frame-ancestors 'none'`, `upgrade-insecure-requests`, HSTS, `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`, and long-lived caching for hashed assets.
 
 The policy uses `style-src 'self'` and `script-src 'self'`, so the app must not use inline `<script>` tags, `<style>` tags, or `style="..."` attributes. The chart and payment progress bars therefore use SVG geometry. Neither the meta tag nor `_headers` is applied by the dev server.
+# Screenshots
+
+Here are some previews of FlowDesk:
+
+# Dashboard
+![FlowDesk Dashboard](docs/IMG_5168.png)
+
+# Customers
+![FlowDesk Customers](docs/IMG_5169.png)
+
+# Payments
+![FlowDesk Payments](docs/IMG_5170.png)
